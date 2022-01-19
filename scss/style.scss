@@ -28,7 +28,7 @@ body {
     font-family: "roboto", sans-serif;
     font-weight: 300;
     font-size: 14px;
-    line-height: 19px;
+    line-height: 17px;
     font-style: normal;
 }
 
@@ -38,38 +38,54 @@ body {
     margin: 0 auto;
 }
 
-header {
+.header {
     padding: 30px;
     box-sizing: border-box;
     background-color: rgba(121, 25, 121, 0.719);
-    & .header {
+    &-links {
         display: flex;
         justify-content: flex-end;
     }
-    & button {
+    & .btn-cart {
         padding: 5px;
         box-sizing: border-box;
         background-color: #fff;
         border: 1px solid rgba(168, 105, 168, 0.582);
         border-radius: 10%;
         box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.527);
+        position: relative;
         &:hover {
             transform: scale(1.1);
         }
-    }
-    & svg {
-        fill: rgba(103, 36, 226, 0.829);
+        & svg {
+            fill: rgba(103, 36, 226, 0.829);
+        }
+        &_counter {
+            color: #e5e5e5;
+            background-color: rgba(102, 36, 226, 0.897);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 50%;
+            width: 19px;
+            height: 19px;
+            position: absolute;
+            top: -9px;
+            right: -9px;
+        }
     }
 }
 
 main {
     padding: 30px;
 }
+
 .products {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
 }
+
 .product-item {
     width: 180px;
     min-height: 200px;
