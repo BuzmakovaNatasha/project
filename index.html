@@ -8,9 +8,9 @@
 </head>
 
 <body>
-
     <header class="header">
         <div class="header-links container">
+            <a href="index.html" class="logo">Интернет магазин</a>
             <button class="btn-cart" type="button">
                 <svg width="32" height="29" viewBox="0 0 32 29" xmlns="http://www.w3.org/2000/svg">
                     <path
@@ -18,6 +18,11 @@
                 </svg>
                 <span class="btn-cart_counter">0</span>
             </button>
+            <div class="basket-box basket-box_hidden">
+                <div class="total">
+                    <div>Итого: <span class="total__value">0</span> &#8381</div>
+                </div>
+            </div>
         </div>
     </header>
     <main>
@@ -26,7 +31,7 @@
         </div>
     </main>
     <script src="./js/main.js"></script>
-
+    <script src="./js/index.js"></script>
 </body>
 
 </html>
