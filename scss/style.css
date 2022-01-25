@@ -71,6 +71,36 @@ body {
           transform: scale(1.1);
 }
 
+.header .search {
+  position: relative;
+}
+
+.header .search-field {
+  border: none;
+  background-color: transparent;
+  border-bottom: 2px solid #fff;
+  padding: 7px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-size: 16px;
+  width: 200px;
+  color: #fff;
+}
+
+.header .search-field:focus {
+  outline: none;
+}
+
+.header .search__btn {
+  width: 25px;
+  color: #fff;
+  border: none;
+  background-color: transparent;
+  position: absolute;
+  top: 0;
+  right: 5px;
+}
+
 .header .btn-cart {
   padding: 5px;
   -webkit-box-sizing: border-box;
