@@ -58,6 +58,31 @@ body {
             transform: scale(1.1);
         }
     }
+    & .search {
+        position: relative;
+        &-field {
+            border: none;
+            background-color: transparent;
+            border-bottom: 2px solid #fff;
+            padding: 7px;
+            box-sizing: border-box;
+            font-size: 16px;
+            width: 200px;
+            color: #fff;
+            &:focus {
+                outline: none;
+            }
+        }
+        &__btn {
+            width: 25px;
+            color: #fff;
+            border: none;
+            background-color: transparent;
+            position: absolute;
+            top: 0;
+            right: 5px;
+        }
+    }
     & .btn-cart {
         padding: 5px;
         box-sizing: border-box;
