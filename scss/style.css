@@ -186,7 +186,7 @@ body {
 }
 
 .header .basket-box .product-cart__item .product-quantity input {
-  width: 40px;
+  width: 50px;
   padding: 5px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
